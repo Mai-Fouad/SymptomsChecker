@@ -43,13 +43,13 @@ class Navbar extends React.Component {
               </li>
 
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="/contact"
+                  to="/contact"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
             <form className="d-flex">
